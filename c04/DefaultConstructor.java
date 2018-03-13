@@ -16,7 +16,7 @@ class Bush {
 public class DefaultConstructor {
 	public static void main(String[] args) {
 		Bird nc = new Bird(); // default;
+		nc.i = 1;
 		new Bush((double)1);
-		
 	}
 }///:~

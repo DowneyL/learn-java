@@ -13,6 +13,7 @@ class Mug {
 }
 
 public class Mugs {
+	int i;
 	Mug c1;
 	Mug c2;
 	{
@@ -26,5 +27,7 @@ public class Mugs {
 	public static void main(String[] args) {
 		System.out.println("Inside main()");
 		Mugs x = new Mugs();
+		x.i = 1;
 	}
+	
 }///:~
